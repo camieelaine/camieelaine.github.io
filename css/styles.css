@@ -1,0 +1,40 @@
+
+
+@media (max-width: 767px)
+.container {
+    padding: 60px 20px;
+    min-width: 280px;
+}
+
+.container .experience p {
+	margin-top: 10px;
+}
+
+.jumbotron {
+	background: no-repeat center right fixed url(../images/bg.png);
+
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/images/bg.png', sizingMethod='scale')";
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='images/images/bg.png', sizingMethod='scale');
+	
+	margin-bottom: 0px;
+	padding: 0px;
+}  
+.jumbotron .container { position: relative; top: 5%; z-index: 4; text-align: center; }
+.jumbotron .container h1 { padding-bottom: 20px; border-bottom: 1px solid #FFFFFF; border-bottom-color: rgba(255,255,255,0.35); display: inline-block; }
+.jumbotron .container .lead { font-size: 32px; }
+
+.container { max-width: 1280px; padding: 20px 80px; }
+
+.well {
+	margin-top: 20px;
+}
